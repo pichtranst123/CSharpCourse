@@ -1,21 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace FirstProject
 {
     public class Currency
     {
-        public Currency(string name, string fullName, double rate)
-        {
-            Name = name;
-            FullName = fullName;
-            Rate = rate;
-        }
-        public string Name { get; set; }
-        public string FullName { get; set; }
-        public double Rate { get; set; }
+        int myNumber = 10;
+        double myDouble = 3.14;
+        char myChar = 'A';
+        string myString = "Hello World";
+        bool myBool = true;
+
+        Console.WriteLine("Integer: " + myNumber);
+        Console.WriteLine("Double: " + myDouble);
+        Console.WriteLine("Char: " + myChar);
+        Console.WriteLine("String: " + myString);
+        Console.WriteLine("Boolean: " + myBool);
     }
 }
